@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and List mixed</title>
+
+    <style>
+        table , th , td{
+            border: 1px solid black;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2">HSC BOARD EXAM</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Computer science</td>
+                <td>
+                    <ol>
+                        <li>Paper I</li>
+                        <li>Paper II</li>
+                    </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <li type="square">200 Marks</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <caption>
+                Exam Scheme
+            </caption>
+        </table>
+    </div>
+</body>
+</html>
